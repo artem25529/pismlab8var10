@@ -13,9 +13,10 @@ public class Executor {
     }
 
     public String execute() {
-        target = new StringBuilder(target)
+        /*target = new StringBuilder(target)
                 .reverse()
-                .toString();
+                .toString();*/
+        target = target.split("\\s").length + " words";
         return "result";
     }
 
